@@ -33,6 +33,9 @@ gem 'simple_form'
 # Add User Authentication using devise
 gem 'devise'
 
+# Add Facebook authentication via omniauth
+gem 'omniauth-facebook'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
